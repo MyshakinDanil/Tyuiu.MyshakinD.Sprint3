@@ -8,7 +8,7 @@ namespace Tyuiu.MyshakinD.Sprint3.Task0.V19.Lib
         {
             double sum = 0;
             double temp = 0;
-            for (int i = startValue; i < stopValue; i++)
+            for (int i = startValue; i < stopValue + 1; i++)
             {
                 temp = 1 / (Math.Cos(i) + 2);
                 sum += Math.Pow(temp, 2);

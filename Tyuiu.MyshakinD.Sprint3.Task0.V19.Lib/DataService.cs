@@ -13,7 +13,7 @@ namespace Tyuiu.MyshakinD.Sprint3.Task0.V19.Lib
                 temp = 1 / (Math.Cos(i) + 2);
                 sum += Math.Pow(temp, 2);
             }
-            return sum;
+            return Math.Round(sum, 3);
         }
     }
 }

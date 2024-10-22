@@ -1,0 +1,19 @@
+﻿using tyuiu.cources.programming.interfaces.Sprint3;
+
+namespace Tyuiu.MyshakinD.Sprint3.Task3.V24.Lib
+{
+    public class DataService : ISprint3Task3V24
+    {
+        public string ReplaceCharInString(string value, char replaceable, char replacement)
+        {
+            foreach (char word in value)
+            {
+                if (word == replaceable)
+                {
+                    value = value.Replace(word, replacement);
+                }
+            }
+            return value;
+        }
+    }
+}

@@ -27,7 +27,7 @@ namespace Tyuiu.MyshakinD.Sprint3.Task5.V30
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            var res = ds.GetSumSumSeries(2, 1, 1, 3, 11);
+            var res = ds.GetSumSumSeries(2, 1, 1, 3, 1);
             Console.WriteLine(res);
         }
     }
